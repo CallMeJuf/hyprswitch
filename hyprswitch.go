@@ -144,12 +144,6 @@ func moveFocus(direction string, moveWithinGroup bool) {
 		} else if direction == MOVE_RIGHT {
 			direction = "f"
 		}
-	} else {
-		if direction == MOVE_LEFT {
-			direction = "l"
-		} else if direction == MOVE_RIGHT {
-			direction = "r"
-		}
 	}
 
 	hyprCommand := ""
