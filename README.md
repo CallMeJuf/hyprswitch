@@ -1,5 +1,5 @@
 # hyprswitch
-Hacky lil Go script to move active windows and focus in hyprland similar to i3's handling grouped (tabbed) windows. 
+Hacky lil Go script to move active windows and focus in [hyprland](https://github.com/hyprwm/Hyprland) similar to [i3](https://github.com/i3/i3)'s handling grouped (tabbed) windows. 
 
 For example, if you move focus left, this script will execute the following logic:
 
@@ -38,4 +38,4 @@ Script is a little hacky and uses `hyprctl` calls to do its work. It doesn't uti
 - Why Go?
   - Cute Gopher
 - Why not implement in hyprland directly?
-  - Cute Gopher <small><small>(I'll look into contributing directly to hyprland when I have time to not whip up something hacky)</small></small>
+  - Cute Gopher (I'll look into contributing directly to hyprland when I have time to not whip up something hacky)
